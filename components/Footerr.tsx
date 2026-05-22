@@ -9,26 +9,26 @@ import Line from '@/components/Line'
 const Footerr = () => {
   return (
     <div className=' p-7 bg-gray-500 flex flex-col
-      items-center justify-center text-gray-200'>
+      items-center justify-center text-cyan-800'>
       <div className='flex items-center justify-between w-full'>
         <Link href={'/'}>
           <div className='flex items-center pr-40'>
             <img src={"logo.png"} width={30} height={30} />
-            <h1 className='font-bold text-2xl border-0 font-mono'>ReactDEv</h1>
+            <h1 className='hover:text-gray-800 font-bold text-2xl border-0 font-mono'>ReactDEv</h1>
           </div>
         </Link>
         <div className='text-[12px]
           font-mono font-bold gap-2 flex items-center justify-center'>
           <p>Built</p>
           <p>by</p>
-          <Link href={'https://www.github.com/Eg51'}>Eg51</Link>
+          <Link href={'https://www.github.com/Eg51'} className='hover:text-gray-800'>Eg51</Link>
           <p>on</p><Link href={'https://www.nextjs.org'}><img src={'next.svg'}
            width={50} height={50}/></Link>
-          <p>code</p><p>available</p><p>on</p>
-          <Link href={'https://www.github.com/Eg51'}><p>github</p></Link>
+          <p>Code</p><p>available</p><p>on</p>
+          <Link href={'https://www.github.com/Eg51'}><p className=' hover:text-gray-800'>github</p></Link>
         </div>
         <div className='flex items-center justify-center'>
-          <nav className='flex gap-8 text-lg font-bold font-mono'>
+          <nav className='flex gap-8 font-bold font-mono'>
             <Link href={"https://www.github.com/Eg51"}><Icons1 /></Link>
             <Link href={"https://www.linkedin.com/login"}><Icons2 /></Link>
             <Link href={"https://www.instagram.com/login"}><Icons3 /></Link>
