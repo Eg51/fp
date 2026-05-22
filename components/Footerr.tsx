@@ -14,18 +14,18 @@ const Footerr = () => {
         <Link href={'/'}>
           <div className='flex items-center pr-40'>
             <img src={"logo.png"} width={30} height={30} />
-            <h1 className='hover:text-gray-800 font-bold text-2xl border-0 font-mono'>ReactDEv</h1>
+            <h1 className='active:text-amber-500 hover:text-gray-800 font-bold text-2xl border-0 font-mono'>ReactDEv</h1>
           </div>
         </Link>
         <div className='text-[12px]
           font-mono font-bold gap-2 flex items-center justify-center'>
           <p>Built</p>
           <p>by</p>
-          <Link href={'https://www.github.com/Eg51'} className='hover:text-gray-800'>Eg51</Link>
+          <Link href={'https://www.github.com/Eg51'} className='active:text-amber-500 hover:text-gray-800'>Eg51</Link>
           <p>on</p><Link href={'https://www.nextjs.org'}><img src={'next.svg'}
            width={50} height={50}/></Link>
           <p>Code</p><p>available</p><p>on</p>
-          <Link href={'https://www.github.com/Eg51'}><p className=' hover:text-gray-800'>github</p></Link>
+          <Link href={'https://www.github.com/Eg51'}><p className=' active:text-amber-500 hover:text-gray-800'>github</p></Link>
         </div>
         <div className='flex items-center justify-center'>
           <nav className='flex gap-8 font-bold font-mono'>
