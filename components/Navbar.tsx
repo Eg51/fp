@@ -5,10 +5,12 @@ const Navbar = () => {
   return (
     <div className='bg-gray-200 flex justify-center p-7 outline-0'>
       <div className='flex text-cyan-600 w-full justify-between items-center'>
-        <div className='flex justify-center items-center'>
-          <img src={"logo.png"} width={30} height={30}/>
-          <h1 className='font-bold text-[22px] font-mono hover:text-gray-800  active:text-amber-500'>ReactDEv</h1>
-        </div>
+        <Link href={"/"}>
+           <div className='flex justify-center items-center'>
+            <img src={"logo.png"} width={30} height={30}/>
+            <h1 className='font-bold text-[22px] font-mono hover:text-gray-800  active:text-amber-500'>ReactDEv</h1>
+          </div>
+        </Link>
         <nav className='flex gap-5 text-8 font-bold font-mono'>
           <Link href={"/"}><p className='active:text-amber-500'></p></Link>
           <Link href={"Portfolio"}><p className='active:text-amber-500 hover:text-gray-800'>Portfolio</p></Link>
