@@ -20,9 +20,9 @@ const Footerr = () => {
         <div className='text-[12px]
           font-mono font-bold gap-2 flex items-center justify-center'>
           <p>Built</p>
-          <p>on</p>
+          <p>by</p>
           <Link href={'https://www.github.com/Eg51'}>Eg51</Link>
-          <p>by</p><Link href={'https://www.nextjs.org'}><img src={'next.svg'}
+          <p>on</p><Link href={'https://www.nextjs.org'}><img src={'next.svg'}
            width={50} height={50}/></Link>
           <p>code</p><p>available</p><p>on</p>
           <Link href={'https://www.github.com/Eg51'}><p>github</p></Link>
