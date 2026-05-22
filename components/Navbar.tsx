@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link className='cursor-pointer' href={'Resume'}>
           <div className=' cursor-pointer flex items-center justify-center
               w-50 h-9.5 border-0 text-gray-800 rounded-[11px] text-[16px] font-mono font-bold'>
-              <button className=' cursor-pointer'>Download Resume'</button>
+              <button className=' cursor-pointer'>Download resume</button>
           </div>
         </Link>
       </div>
