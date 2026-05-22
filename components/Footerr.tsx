@@ -8,13 +8,14 @@ import Icons4 from '@/components/iconss/Icons4'
 import Line from '@/components/Line'
 const Footerr = () => {
   return (
-    <div className=' p-7 bg-gray-500 flex flex-col
+    <div className=' p-7 bg-gray-200 flex flex-col
       items-center justify-center text-cyan-800'>
       <div className='flex items-center justify-between w-full'>
         <Link href={'/'}>
           <div className='flex items-center pr-40'>
             <img src={"logo.png"} width={30} height={30} />
-            <h1 className='active:text-amber-500 hover:text-gray-800 font-bold text-2xl border-0 font-mono'>ReactDEv</h1>
+            <h1 className='active:text-amber-500 hover:text-gray-800
+            font-bold text-2xl border-0 font-mono'>ReactDEv</h1>
           </div>
         </Link>
         <div className='text-[12px]
